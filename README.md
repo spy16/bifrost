@@ -1,4 +1,4 @@
-# Bifrost
+# 🌈 Bifrost
 
 An OAuth2 Playground written in `Go` (or `Golang`).
 
