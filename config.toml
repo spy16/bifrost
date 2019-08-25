@@ -1,0 +1,13 @@
+[providers.Google]
+client_id="<client-id>"
+client_secret="<client-secret>"
+auth_uri="https://accounts.google.com/o/oauth2/auth"
+token_uri="https://oauth2.googleapis.com/token"
+scopes=[
+    "https://www.googleapis.com/auth/calendar.settings.readonly"
+]
+redirect_uri="http://localhost:8083/callback"
+auth_style="basic"
+
+[providers.Google.params]
+access_type="offline"
